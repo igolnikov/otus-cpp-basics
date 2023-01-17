@@ -1,0 +1,49 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx86/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.34.31937 для x64
+(C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.34.31937.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/hello2/CMakeFiles/3.15.0/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/hello2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_c4d39\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\nmake.exe" -f CMakeFiles\cmTC_c4d39.dir\build.make /nologo -L                  CMakeFiles\cmTC_c4d39.dir\build
+Building CXX object CMakeFiles/cmTC_c4d39.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x64\cl.exe @C:\Users\IGOR~1.IGO\AppData\Local\Temp\nm22A9.tmp
+testCXXCompiler.cxx
+Linking CXX executable cmTC_c4d39.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c4d39.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x86\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\cmTC_c4d39.dir\objects1.rsp @C:\Users\IGOR~1.IGO\AppData\Local\Temp\nm2308.tmp
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/hello2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_65483\fast && 	"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX86\x64\nmake.exe" -f CMakeFiles\cmTC_65483.dir\build.make /nologo -L                  CMakeFiles\cmTC_65483.dir\build
+Building CXX object CMakeFiles/cmTC_65483.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x64\cl.exe @C:\Users\IGOR~1.IGO\AppData\Local\Temp\nm252A.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_65483.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_65483.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x86\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\cmTC_65483.dir\objects1.rsp @C:\Users\IGOR~1.IGO\AppData\Local\Temp\nm2625.tmp
+
+
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.cpp
+example.h
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.h
+iostream
+-
+
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.h
+
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/hello_world.cpp
+example.h
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.h
+iostream
+-
+

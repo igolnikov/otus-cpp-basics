@@ -1,0 +1,3 @@
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/hello/CMakeFiles/hello.dir
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/hello/CMakeFiles/edit_cache.dir
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/hello/CMakeFiles/rebuild_cache.dir
