@@ -6,17 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.cpp
-example.h
-C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.h
-iostream
--
-
 C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.h
 
 C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/hello_world.cpp
 example.h
 C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.h
+move_me_out.h
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/move_me_out.h
 iostream
 -
+
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/move_me_out.cpp
+move_me_out.h
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/move_me_out.h
+iostream
+-
+
+C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/move_me_out.h
 

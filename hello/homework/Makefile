@@ -178,6 +178,33 @@ hello_world.cpp.s:
 	$(MAKE) -f CMakeFiles\hello_world.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hello_world.dir\hello_world.cpp.s
 .PHONY : hello_world.cpp.s
 
+move_me_out.obj: move_me_out.cpp.obj
+
+.PHONY : move_me_out.obj
+
+# target to build an object file
+move_me_out.cpp.obj:
+	$(MAKE) -f CMakeFiles\hello_world.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hello_world.dir\move_me_out.cpp.obj
+.PHONY : move_me_out.cpp.obj
+
+move_me_out.i: move_me_out.cpp.i
+
+.PHONY : move_me_out.i
+
+# target to preprocess a source file
+move_me_out.cpp.i:
+	$(MAKE) -f CMakeFiles\hello_world.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hello_world.dir\move_me_out.cpp.i
+.PHONY : move_me_out.cpp.i
+
+move_me_out.s: move_me_out.cpp.s
+
+.PHONY : move_me_out.s
+
+# target to generate assembly for a file
+move_me_out.cpp.s:
+	$(MAKE) -f CMakeFiles\hello_world.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hello_world.dir\move_me_out.cpp.s
+.PHONY : move_me_out.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -193,6 +220,9 @@ help:
 	@echo ... hello_world.obj
 	@echo ... hello_world.i
 	@echo ... hello_world.s
+	@echo ... move_me_out.obj
+	@echo ... move_me_out.i
+	@echo ... move_me_out.s
 .PHONY : help
 
 

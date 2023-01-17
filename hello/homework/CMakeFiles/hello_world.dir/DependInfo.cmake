@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/example.cpp" "C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/CMakeFiles/hello_world.dir/example.cpp.obj"
   "C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/hello_world.cpp" "C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/CMakeFiles/hello_world.dir/hello_world.cpp.obj"
+  "C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/move_me_out.cpp" "C:/Users/igor.igolnikov/Desktop/C++/github/otus-cpp-basics/hello/homework/CMakeFiles/hello_world.dir/move_me_out.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

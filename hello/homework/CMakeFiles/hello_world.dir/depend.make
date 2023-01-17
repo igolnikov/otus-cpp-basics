@@ -6,4 +6,8 @@ CMakeFiles\hello_world.dir\example.cpp.obj: example.h
 
 CMakeFiles\hello_world.dir\hello_world.cpp.obj: example.h
 CMakeFiles\hello_world.dir\hello_world.cpp.obj: hello_world.cpp
+CMakeFiles\hello_world.dir\hello_world.cpp.obj: move_me_out.h
+
+CMakeFiles\hello_world.dir\move_me_out.cpp.obj: move_me_out.cpp
+CMakeFiles\hello_world.dir\move_me_out.cpp.obj: move_me_out.h
 

@@ -96,19 +96,40 @@ CMakeFiles\hello_world.dir\example.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\hello_world.dir\example.cpp.s /c C:\Users\igor.igolnikov\Desktop\C++\github\otus-cpp-basics\hello\homework\example.cpp
 <<
 
+CMakeFiles\hello_world.dir\move_me_out.cpp.obj: CMakeFiles\hello_world.dir\flags.make
+CMakeFiles\hello_world.dir\move_me_out.cpp.obj: move_me_out.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\igor.igolnikov\Desktop\C++\github\otus-cpp-basics\hello\homework\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hello_world.dir/move_me_out.cpp.obj"
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\hello_world.dir\move_me_out.cpp.obj /FdCMakeFiles\hello_world.dir\ /FS -c C:\Users\igor.igolnikov\Desktop\C++\github\otus-cpp-basics\hello\homework\move_me_out.cpp
+<<
+
+CMakeFiles\hello_world.dir\move_me_out.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_world.dir/move_me_out.cpp.i"
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x64\cl.exe > CMakeFiles\hello_world.dir\move_me_out.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\igor.igolnikov\Desktop\C++\github\otus-cpp-basics\hello\homework\move_me_out.cpp
+<<
+
+CMakeFiles\hello_world.dir\move_me_out.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_world.dir/move_me_out.cpp.s"
+	C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\hello_world.dir\move_me_out.cpp.s /c C:\Users\igor.igolnikov\Desktop\C++\github\otus-cpp-basics\hello\homework\move_me_out.cpp
+<<
+
 # Object files for target hello_world
 hello_world_OBJECTS = \
 "CMakeFiles\hello_world.dir\hello_world.cpp.obj" \
-"CMakeFiles\hello_world.dir\example.cpp.obj"
+"CMakeFiles\hello_world.dir\example.cpp.obj" \
+"CMakeFiles\hello_world.dir\move_me_out.cpp.obj"
 
 # External object files for target hello_world
 hello_world_EXTERNAL_OBJECTS =
 
 hello_world.exe: CMakeFiles\hello_world.dir\hello_world.cpp.obj
 hello_world.exe: CMakeFiles\hello_world.dir\example.cpp.obj
+hello_world.exe: CMakeFiles\hello_world.dir\move_me_out.cpp.obj
 hello_world.exe: CMakeFiles\hello_world.dir\build.make
 hello_world.exe: CMakeFiles\hello_world.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\igor.igolnikov\Desktop\C++\github\otus-cpp-basics\hello\homework\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable hello_world.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\igor.igolnikov\Desktop\C++\github\otus-cpp-basics\hello\homework\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hello_world.exe"
 	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\hello_world.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x86\mt.exe --manifests  -- C:\PROGRA~1\MICROS~2\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx86\x64\link.exe /nologo @CMakeFiles\hello_world.dir\objects1.rsp @<<
  /out:hello_world.exe /implib:hello_world.lib /pdb:C:\Users\igor.igolnikov\Desktop\C++\github\otus-cpp-basics\hello\homework\hello_world.pdb /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
